@@ -4,7 +4,7 @@
 # Navigation menu
 menu:
   首頁: /
-  部落格: /archive
+  部落格: /archives
   關於我: /about
 # RSS link
 rss: /atom.xml
@@ -114,4 +114,5 @@ facebook_sdk:
   fb_admin:     #<user_id>
   like_button:  #true
   webmaster:    #true
+
 
