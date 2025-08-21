@@ -7,7 +7,7 @@
           <li class="clearfix recent-posts">
             <% if (post.photos != ""){ %>
               <div class="widget-entry-thumbnail">
-                <a href="<%- url_for(post.path) %>" title="<% post.title %>"><img width="120" height="90" src="<%= post.photos[0] %>" class="attachment-thumb-small size-thumb-small wp-post-image" alt="preview-16" title="<% post.title %>"></a>
+                <a href="<%- url_for(post.path) %>" title="<% post.title %>"><img width="120" height="90" src="<%= url_for(post.photos[0]) %>" class="attachment-thumb-small size-thumb-small wp-post-image" alt="preview-16" title="<% post.title %>"></a>
               </div>
               <div class="widget-entry-summary">
             <% } else { %>
@@ -21,4 +21,5 @@
       </ul>
     </div>
   </div>
+
 <% } %>
