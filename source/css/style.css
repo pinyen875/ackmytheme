@@ -928,6 +928,7 @@ a.article-title:hover {
 .article-gallery-img {
   display: none;
   max-width: 100%;
+  background-color: #fff;
 }
 .article-gallery-img:first-child {
   display: block;
