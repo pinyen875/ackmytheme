@@ -12,7 +12,7 @@
       <% } %>
       <div class="article-list-meta">
         <%- partial('post/date', {class_name: 'article-list-date', date_format: null}) %>
-        <%- partial('post/category') %>
+        <%- partial('post/tag') %>
       </div>
       <div class="article-list-entry" itemprop="articleBody">
         <% if (post.excerpt && index){ %>
@@ -87,4 +87,5 @@
   <section id="comments" class="vcomment">
 
   </section>
+
 <% } %>
